@@ -1,0 +1,122 @@
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, auto));
+    gap: 1.3rem;
+    margin-bottom: 40rem;
+    margin-top: 5rem;
+    border-radius: 10px;
+    margin-right: 25vw;
+    cursor: pointer;
+}
+
+.gallery .new-content .box-10:hover {
+    transform: translateY(-15px);
+    transition: all 6s ease;
+}
+.new-content .box-10 {
+    width: 50px;
+    height: 30px;
+
+   
+}
+.new-content h5{
+    position: absolute;
+    top: 75vw;
+    right: 68vw;
+    font-size: 35px;
+    color: white;
+}
+.new-content .bx h5{
+    position: absolute;
+    top: 75vw;
+    right: 42vw;
+    font-size: 35px;
+    color: white;
+}
+.new-content .button {
+    position: absolute;
+    top: 80vw;
+    right: 70vw;
+    font-size: 16px;
+    color: white;
+    width: 8rem;
+    padding: 20px;
+    text-align: center;
+    height: 50px;
+    background-color: black;
+    border-radius: 22px;
+    cursor: pointer;
+}
+.new-content .button:hover {
+    background-color: brown;
+    color: white;
+}
+.new-content .box-10 img {
+    height: 520px;
+}
+.new-content .bx .button{
+    position: absolute;
+    top: 80vw;
+    right: 45vw;
+    text-align: center;
+    font-size: 16px;
+    color: black;
+    width: 8rem;
+    padding: 20px;
+    height: 50px;
+    background-color: rgb(255, 249, 249);
+    border-radius: 22px;
+    cursor: pointer;
+}
+.new-content .bx .button:hover {
+    background-color: black;
+    color: white;
+
+}
+.new-content .bx1 h5{
+    position: absolute;
+    top: 75vw;
+    right: 12vw;
+    font-size: 35px;
+    color:white;
+}
+.new-content .bx1 .button{
+    position: absolute;
+    top: 80vw;
+    right: 15vw;
+    font-size: 16px;
+    text-align: center;
+    color: black;
+    width: 8rem;
+    padding: 20px;
+    height: 50px;
+    background-color:palevioletred;
+    border-radius: 22px;
+    cursor: pointer;
+}
+.new-content .bx1 .button:hover {
+    background-color: white;
+    color: purple;
+
+}
+
+@media screen and  (max-width: 790px) {
+    .gallery {
+        padding: 10px;
+        transition: all .3s ease;
+    }
+    .new-content {
+        padding: 10px;
+        transition: all .3s ease;
+    }
+    .new-content .center h2 {
+        padding: 10px;
+        transition: all .3s ease;
+        font-size: 25px;
+        line-height: 23px;
+    }
+    .new-content .box-10 img{
+        padding: 10px 10px;
+        transition: all .3s ease;
+    }
+}

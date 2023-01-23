@@ -1,0 +1,9 @@
+.cta-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(5px, auto));
+    gap: 2rem;
+    text-align: center;
+    align-items: center;
+    margin-top: 20%;
+    
+}
